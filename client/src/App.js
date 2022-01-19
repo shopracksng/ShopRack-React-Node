@@ -72,11 +72,16 @@ function App() {
                   path='/signup'
                   element={<Signup />}
                 />
-                <PrivateRoute
+                <Route
                   exact
                   path='/dashboard'
-                  element={<Dashboard />}
-                />
+                  element={<PrivateRoute />}>
+                  <Route
+                    exact
+                    path='/dashboard'
+                    element={<Dashboard />}
+                  />
+                </Route>
               </Routes>
             </Router>
           </div>

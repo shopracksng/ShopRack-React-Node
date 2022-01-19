@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext';
 import AlertContext from '../../context/alert/alertContext';
 
-const Signin = () => {
+const Signin = (props) => {
   const { theme } = useTheme();
 
   const alertContext = useContext(AlertContext);
@@ -92,7 +92,10 @@ const Signin = () => {
         <div className=''>
           <img src='/img/shoprack-logo.svg' alt='' />
         </div>
-        <form action='' className='flex flex-col'>
+        <form
+          action=''
+          onSubmit={onSubmit}
+          className='flex flex-col'>
           <div>
             <input
               type='email'

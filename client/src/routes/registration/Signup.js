@@ -1,4 +1,8 @@
-import React, { useEffect, useContext } from 'react';
+import React, {
+  useState,
+  useEffect,
+  useContext,
+} from 'react';
 import Button from '../../components/button-component/Button';
 import { useTheme } from '../../context/ThemeContext';
 import { Link } from 'react-router-dom';
@@ -95,11 +99,11 @@ const Signup = (props) => {
       </div>
 
       <div className='relative flex flex-col justify-center items-center w-full md:w-2/4 px-8 '>
-        {message?.success && (
+        {/* {message?.success && (
           <p className='bg-green-600 text-white p-10 absolute top-0 -mt-20 w-full text-center'>
             {message.success}
           </p>
-        )}
+        )} */}
 
         <div className='pb-5'>
           <img src='/img/shoprack-logo.svg' alt='' />
