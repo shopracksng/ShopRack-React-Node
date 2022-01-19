@@ -16,7 +16,12 @@ const { JsonWebTokenError } = require('jsonwebtoken');
 router.post(
   '/',
   [
-    body('name', 'Please add a name').not().isEmpty(),
+    body('firstname', 'Please add a First name')
+      .not()
+      .isEmpty(),
+    body('lastname', 'Please add a Last name')
+      .not()
+      .isEmpty(),
     body('email', 'Please enter a valid email').isEmail(),
     body(
       'password',
@@ -30,7 +35,8 @@ router.post(
         .status(400)
         .json({ errors: errors.array() });
     }
-    const { name, email, password } = req.body;
+    const { firstname, lastname, email, password } =
+      req.body;
     try {
       let user = await User.findOne({ email });
       if (user) {
@@ -40,7 +46,8 @@ router.post(
       }
 
       user = new User({
-        name,
+        firstname,
+        lastname,
         email,
         password,
       });

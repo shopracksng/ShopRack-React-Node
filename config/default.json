@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://shoprack:Pat1357@shoprack.ldsky.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://shoprack:shoprack123@shoprack.b1t9z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "jwtSecret": "secret"
 }

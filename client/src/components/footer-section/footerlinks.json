@@ -1,0 +1,65 @@
+[
+  {
+    "title": "COMPANY",
+    "items": [
+      {
+        "text": "About",
+        "link": "/about"
+      },
+      {
+        "text": "Testimonials",
+        "link": "/testimonials"
+      },
+      {
+        "text": "App",
+        "link": "/app"
+      }
+    ]
+  },
+  {
+    "title": "CONTACT US",
+    "items": [
+      {
+        "text": "Facebook",
+        "link": "https://www.facebook.com/shopracksng"
+      },
+      {
+        "text": "Twitter",
+        "link": "https://twitter.com/shopracksng"
+      },
+      {
+        "text": "Instagram",
+        "link": "https://www.instagram.com/shopracksng"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/company/shopracksng/"
+      },
+      {
+        "text": "Medium",
+        "link": "https://medium.com/@ShopRacksng"
+      }
+    ]
+  },
+  {
+    "title": "HELP",
+    "items": [
+      {
+        "text": "Help Center",
+        "link": "/help"
+      },
+      {
+        "text": "Contact Support",
+        "link": "/contact"
+      },
+      {
+        "text": "Instructions",
+        "link": "/instructions"
+      },
+      {
+        "text": "How it works",
+        "link": "/how"
+      }
+    ]
+  }
+]
