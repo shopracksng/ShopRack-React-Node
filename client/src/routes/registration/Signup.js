@@ -115,12 +115,12 @@ const Signup = (props) => {
           <div>
             <input
               type='text'
-              placeholder='First Name..'
-              name='fistname'
+              placeholder='First Name'
+              name='firstname'
               value={firstname}
               onChange={onChange}
               required
-              className='p-4 rounded-full outline-none w-full'
+              className='p-4 mt-5 focus:border-2 rounded-full outline-none w-full'
               style={{
                 border: `1px solid ${theme.primary.dark}`,
               }}
@@ -134,7 +134,7 @@ const Signup = (props) => {
               value={lastname}
               onChange={onChange}
               required
-              className='p-4 mt-5 rounded-full outline-none w-full'
+              className='p-4 mt-5 focus:border-2 rounded-full outline-none w-full'
               style={{
                 border: `1px solid ${theme.primary.dark}`,
               }}
@@ -143,11 +143,12 @@ const Signup = (props) => {
           <div>
             <input
               type='email'
+              placeholder='Email Address'
               name='email'
               value={email}
               onChange={onChange}
               required
-              className=' p-4 mt-5 focus:border-2 rounded-full w-full'
+              className='p-4 mt-5 focus:border-2 rounded-full outline-none w-full'
               style={{
                 border: `1px solid ${theme.primary.dark}`,
               }}

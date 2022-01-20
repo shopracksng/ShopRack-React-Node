@@ -22,6 +22,7 @@ import Alerts from './routes/alerts/Alerts';
 import setAuthToken from './utils/setAuthToken';
 import PrivateRoute from './routes/routing/PrivateRoute';
 import AuthState from './context/auth/AuthState';
+import ContactUs from './routes/contactus/ContactUs';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,6 +72,11 @@ function App() {
                   exact
                   path='/signup'
                   element={<Signup />}
+                />
+                <Route
+                  exact
+                  path='/contactus'
+                  element={<ContactUs />}
                 />
                 <Route
                   exact

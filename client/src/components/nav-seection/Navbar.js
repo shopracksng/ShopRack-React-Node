@@ -24,8 +24,10 @@ const Navbar = ({ toggle }) => {
           <i className='fas fa-bars'></i>
         </div>
         <div className='pr-8 md:flex hidden space-x-5 lg:space-x-16 items-center'>
-          <Link to='#'>FAQs</Link>
-          <Link to='#' className='whitespace-nowrap'>
+          <Link to='/'>HOME</Link>
+          <Link
+            to='/contactus'
+            className='whitespace-nowrap'>
             CONTACT US
           </Link>
           <a href='https://dev-shopracks.pantheonsite.io'>
