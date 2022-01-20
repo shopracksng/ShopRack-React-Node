@@ -5,12 +5,12 @@ import Dropdown from '../../components/nav-seection/Dropdown';
 import { useTheme } from '../../context/ThemeContext';
 import Footer from '../../components/footer-section/Footer';
 
-const ContactUs = () => {
+const ContactUs = ({ toggle, isOpen }) => {
   const { theme } = useTheme();
   return (
     <div>
-      <Navbar />
-      <Dropdown />
+      <Navbar toggle={toggle} />
+      <Dropdown toggle={toggle} isOpen={isOpen} />
       <div className='py-14 px-28'>
         <h1 className='text-center text-3xl md:text-3xl xl:text-5xl font-bold w-full  '>
           Contact US
