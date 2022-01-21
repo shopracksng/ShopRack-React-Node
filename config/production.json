@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://shoprack:shoprack123@shoprack.b1t9z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
