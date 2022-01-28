@@ -78,6 +78,11 @@ function App() {
                   path='/contactus'
                   element={<ContactUs />}
                 />
+                {/* <Route
+                  exact
+                  path='/dashboard'
+                  element={<Dashboard />}
+                /> */}
                 <Route
                   exact
                   path='/dashboard'
