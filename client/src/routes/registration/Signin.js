@@ -125,7 +125,7 @@ const Signin = (props) => {
             />
           </div>
 
-          <Button text='SIGN UP' background type='submit' />
+          <Button text='SIGN IN' background type='submit' />
 
           <p className='px-7 py-3'>
             Don't have a Shopracks account?
